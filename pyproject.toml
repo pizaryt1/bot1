@@ -1,9 +1,14 @@
 [project]
-name = "python-template"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+name = "telegram-downloader-bot"
+version = "1.0.0"
+description = "Telegram bot for downloading media from various platforms"
+authors = ["7MOD <7mod@example.com>"]
 requires-python = ">=3.11"
 dependencies = [
-    "discord-py>=2.5.2",
+    "python-telegram-bot>=21.0.1",
+    "yt-dlp>=2024.1.30",
+    "requests>=2.31.0",
+    "aiofiles>=23.2.0",
+    "pillow>=10.0.0",
+    "asyncio>=3.4.3",
 ]
